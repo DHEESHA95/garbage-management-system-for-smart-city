@@ -9,7 +9,7 @@ EthernetServer server(80);
 
 SoftwareSerial mySerial(7,8);//rx,tx (arduino receiver from 7th pin,transmitter 8th pin) 
  
-String num ="9445156570";
+String num ="000000000";
 float gas;
 int gaspin=A0;//gas sensor pin
 const int trigPin = 2;//uv pin
